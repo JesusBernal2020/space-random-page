@@ -79,7 +79,7 @@
       background: radial-gradient(37.26% 37.26% at 49.99% 49.99%, #FFFFFF 0%, rgba(135, 215, 231, 0.913) 8.74%, rgba(157, 188, 195, 0.797) 27.92%, rgb(77, 148, 167) 46.18%, rgba(81, 185, 201, 0.893) 63.02%, rgb(42, 141, 172) 78.12%, rgba(18, 208, 218, 0.715) 90.96%, rgba(17, 176, 224, 0.715) 100%);
       
     }
-.plantilla{
+.overlay{
   background-image: url(/public/images/estrellass.png);
   width: 100%;
 }
