@@ -27,7 +27,6 @@ function App() {
       <Universe handleChangeUniverse={handleChangeUniverse} phrase={universe.phrase} />
 
       <footer className='footer__container'>
-        {/* <img className='img__footer' src={`${planeta}`} alt="" /> */}
         <div className='overlay'></div>
         <div className={`img__footer ${planeta}`}></div>
           <h3 className='foorter__title' >Fuente:{universe.author}</h3>

@@ -40,13 +40,6 @@
   align-items: center;
   filter: drop-shadow(0px 0px 20px rgba(0, 247, 255, 0.95));
 }
-/* .img__footer{
-  position: absolute;
-  width: 300px;
-  height: 130px;
-  bottom: 0;
-
-} */
 .plantilla{
   position: absolute;
     background-position: center;
