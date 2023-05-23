@@ -3,6 +3,7 @@ import './App.css'
 import dbUniverse from './db/universe.json'
 import { getRandom } from './utils/random'
 import Universe from './components/Universe'
+import PlanetFooter from './components/PlanetFooter';
 
 
 const bgVerseImages = ['verse1', 'verse2', 'verse3', 'verse4']
@@ -26,11 +27,13 @@ function App() {
         
       <Universe handleChangeUniverse={handleChangeUniverse} phrase={universe.phrase} />
 
-      <footer className='footer__container'>
+      {/* <footer className='footer__container'>
         <div className='overlay'></div>
         <div className={`img__footer ${planeta}`}></div>
           <h3 className='foorter__title' >Fuente:{universe.author}</h3>
-        </footer>
+        </footer> */}
+      
+      <PlanetFooter planeta = {planeta} universe={universe} />
       </section>
     </main>
 }
